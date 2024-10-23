@@ -1,7 +1,10 @@
 body section {
     padding-bottom: 50px;
 }
-
+body small{
+    color: rgb(76, 101, 146);
+    font-size: 12px;
+}
 
 body .collm {
     display: flex;
@@ -40,8 +43,11 @@ body .head {
     }
 }
 
-body p {
+body  {
+    color: #000000;
+  p{
     color: gray;
+  }
 }
 
 body {
@@ -318,4 +324,25 @@ body {
         background-repeat: none;
 
     }
+}
+.mcard{
+    border-radius:8px ;
+    box-shadow: 0px 0px 8px 1px rgba(187, 187, 187, 0.422);
+   
+}
+.mcard:hover{
+    transition: all ease-in-out 0.3s ;
+    transform: scale(1.09);
+}
+.sem:hover{
+    box-shadow: 0px 0px 15px 1px rgba(255, 0, 0, 0.422);
+    font-weight: bold;
+}
+.mainc{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    justify-items: stretch;
+    align-items: stretch;
 }
