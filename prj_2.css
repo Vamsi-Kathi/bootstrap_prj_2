@@ -1,0 +1,321 @@
+body section {
+    padding-bottom: 50px;
+}
+
+
+body .collm {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-control {
+    box-shadow: none;
+    outline: none;
+    /* border: none; */
+}
+
+.form-control:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+body .head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+    h2 {
+        color: rgb(79, 79, 79);
+
+        span {
+            font-weight: 600;
+            color: rgb(0, 0, 0);
+        }
+    }
+}
+
+body p {
+    color: gray;
+}
+
+body {
+    .navbar {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        z-index: 100;
+    }
+
+
+    #navbarSupportedContent {
+        li {
+            a {
+                font-size: 1.1rem;
+                font-weight: 400;
+                color: black;
+            }
+        }
+    }
+
+    .homepage {
+
+        background: url(https://assets-v2.scaler.com/assets/academy/svg/banner-background-34136d3a9ddff172e6bae6e3d8283c452231dcda2196b055bfa2e34e222754b7.svg);
+        background-repeat: no-repeat;
+
+        .hh {
+            font-size: 2.5rem;
+            padding: 2px 4px;
+        }
+
+        input {
+            width: 500px;
+        }
+
+        small {
+            font-size: 11px;
+        }
+    }
+
+}
+
+.topp {
+    position: relative;
+    padding-bottom: 24rem;
+
+}
+
+.hmp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    position: absolute;
+    top: -204px;
+    left: 17%;
+    background-color: white;
+    border-radius: 10px;
+
+
+
+}
+
+.hmimg {
+    height: 40px;
+}
+
+.gridsv {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+    .c1 {
+        background-color: #0f8cff;
+    }
+
+    .c2 {
+        background-color: #ea576f;
+    }
+
+    .c3 {
+        background-color: #5cdb57;
+    }
+
+    .c4 {
+        background-color: #4c96e5;
+    }
+
+    .c5 {
+        background-color: #fca733;
+    }
+
+    .c6 {
+        background-color: #a768d7;
+    }
+
+    .cds {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        border: none;
+        border-radius: 10px;
+        padding: 2rem 1rem;
+        position: relative;
+        overflow: hidden;
+
+
+        .des {
+            width: 250px;
+            color: white;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .des1::after {
+            background-color: #fec601;
+        }
+
+        .des2::after {
+            background-color: #9243ce;
+        }
+
+        .des3::after {
+            background-color: #2d9aff;
+        }
+
+        .des4::after {
+            background-color: #fec601;
+        }
+
+        .des5::after {
+            background-color: #0f8cff;
+        }
+
+        .des6::after {
+            background-color: #fc9100;
+        }
+
+        .des1::after,
+        .des2::after,
+        .des3::after,
+        .des4::after,
+        .des5::after,
+        .des6::after {
+            content: "";
+            height: 200px;
+            width: 50px;
+            position: absolute;
+            z-index: 3;
+            transform: rotate(-45deg);
+            top: -53px;
+            right: -10px;
+
+        }
+
+
+    }
+
+
+
+}
+
+.flp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.flps {
+    padding: 0 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 13px;
+
+    .fp {
+        img {
+            height: 60px;
+        }
+
+        border: 2px solid gray;
+        border-radius: 10px;
+        padding: 5px 10px;
+
+        p {
+            width: 390px;
+            text-align: center;
+        }
+    }
+}
+
+.vse {
+    background-color: #e8f2fe;
+    padding: 30px;
+
+    .curr {
+        .cvv {
+            .cvc {
+                border: none;
+                background-color: white;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 10px 20px;
+
+                h2 {
+                    font-weight: 400;
+                }
+
+                .cir {
+
+                    input {
+                        transform: scale(3);
+                    }
+                }
+
+            }
+        }
+
+        .main_modules {
+            background-color: #cae0fe;
+
+            .mbox1 {
+
+                .m1 {
+                    padding: 20px 15px;
+                    background-color: white;
+                }
+
+                .mh {
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                }
+            }
+
+            .mbox2 {
+                .box2 {
+                    background-color: #0d6efd;
+
+                    .crlist {
+                        li {
+                            margin-left: 55px;
+                        }
+                    }
+
+                    .last {
+                        padding-top: 100px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.talk_to {
+   
+    background: linear-gradient(135deg, #011028, #0157ae);
+
+    .talkbg {
+        background: url(https://assets-v2.scaler.com/assets/scaler/svg/girl-advisor-d-8c3dfdfb2c1754477186102f21bd4658da55661f94f3b2f66b22bcafe084bbc0.png.gz);
+        z-index: 1;
+        background-size: cover;
+        background-repeat: none;
+
+    }
+}
