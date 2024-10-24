@@ -1,5 +1,6 @@
 body section {
     padding-bottom: 50px;
+    
 }
 body small{
     color: rgb(76, 101, 146);
@@ -34,6 +35,7 @@ body .head {
 
 
     h2 {
+        text-align: center;
         color: rgb(79, 79, 79);
 
         span {
@@ -80,10 +82,7 @@ body {
             padding: 2px 4px;
         }
 
-        input {
-            width: 500px;
-        }
-
+        
         small {
             font-size: 11px;
         }
@@ -314,16 +313,8 @@ body {
 }
 
 .talk_to {
-   
     background: linear-gradient(135deg, #011028, #0157ae);
 
-    .talkbg {
-        background: url(https://assets-v2.scaler.com/assets/scaler/svg/girl-advisor-d-8c3dfdfb2c1754477186102f21bd4658da55661f94f3b2f66b22bcafe084bbc0.png.gz);
-        z-index: 1;
-        background-size: cover;
-        background-repeat: none;
-
-    }
 }
 .mcard{
     border-radius:8px ;
