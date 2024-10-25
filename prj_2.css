@@ -1,8 +1,10 @@
 body section {
-    padding-bottom: 50px;
-    
+    margin-bottom: 30px;
+    padding: 30px 10px;
+
 }
-body small{
+
+body small {
     color: rgb(76, 101, 146);
     font-size: 12px;
 }
@@ -12,7 +14,12 @@ body .collm {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10px;
+
+}
+
+body a {
+    text-decoration: none;
+    font-weight: 500;
 }
 
 .form-control {
@@ -32,24 +39,33 @@ body .head {
     align-items: center;
     flex-direction: column;
     gap: 20px;
+    margin-bottom: 10px;
 
 
     h2 {
         text-align: center;
-        color: rgb(79, 79, 79);
+        color: rgb(78, 77, 77);
 
         span {
+
             font-weight: 600;
             color: rgb(0, 0, 0);
         }
     }
+
+    p {
+        text-align: center;
+        font-size: 18px;
+    }
 }
 
-body  {
+body {
+    
     color: #000000;
-  p{
-    color: gray;
-  }
+
+    p {
+        color: gray;
+    }
 }
 
 body {
@@ -82,7 +98,7 @@ body {
             padding: 2px 4px;
         }
 
-        
+
         small {
             font-size: 11px;
         }
@@ -92,7 +108,7 @@ body {
 
 .topp {
     position: relative;
-    padding-bottom: 24rem;
+    padding-bottom: 18rem;
 
 }
 
@@ -103,7 +119,7 @@ body {
     flex-direction: column;
     gap: 10px;
     position: absolute;
-    top: -204px;
+    top: -17rem;
     left: 17%;
     background-color: white;
     border-radius: 10px;
@@ -316,24 +332,140 @@ body {
     background: linear-gradient(135deg, #011028, #0157ae);
 
 }
-.mcard{
-    border-radius:8px ;
+
+.mcard {
+    border-radius: 8px;
     box-shadow: 0px 0px 8px 1px rgba(187, 187, 187, 0.422);
-   
+
 }
-.mcard:hover{
-    transition: all ease-in-out 0.3s ;
+
+.mcard:hover {
+    transition: all ease-in-out 0.3s;
     transform: scale(1.09);
 }
-.sem:hover{
+
+.sem:hover {
     box-shadow: 0px 0px 15px 1px rgba(255, 0, 0, 0.422);
     font-weight: bold;
 }
-.mainc{
+
+.mainc {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-content: center;
     justify-items: stretch;
     align-items: stretch;
+}
+
+.scr {
+    overflow: hidden;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    width: 75vw;
+
+    .scfside {
+        align-items: start;
+        height: 40px;
+    }
+
+    .des {
+        text-align: start;
+        width: 300px;
+    }
+}
+
+.slick-prev, .slick-next {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    background: #3584b9;
+    color: #fff;
+    width: 30px;
+    height: 80px;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 3;
+}
+.slick-prev {
+    left: -60px; 
+}
+.slick-next {
+    right: -40px; 
+}
+.slick-prev:hover, .slick-next:hover {
+    background: #2980b9;
+}
+.your-class {
+    position: relative;
+}
+.Scalermentor{
+    background: rgb(15, 140, 255);
+}
+.scimgbg{
+    border: none;
+    background-color: rgb(86, 174, 255);
+    padding: 25px;
+    border-radius: 50%;
+}
+.scbtn{
+    font-size: 1.1rem ;
+}
+
+.aspera{
+    background: #e7f3ff;
+}
+.boxrr{
+    overflow: hidden;
+    border-radius: 20px;
+}
+.brdimg{
+    border: 1rem solid #57aeff;
+}
+.cardes{
+        width: 210px;
+}
+.shwrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.confused{
+    background: #e7f3ff;
+}
+.cldes{
+    width: 200px;
+}
+
+.clb1{
+    background: url(https://assets-v2.scaler.com/assets/academy/svg/carousel-1-f8b2a8715c72d8a7ee95dee86294c20875ab6961b6c5d51c4e4b1ef7ba1f6ce5.svg.gz);
+   
+}
+.clb2{
+    background: url(https://assets-v2.scaler.com/assets/academy/svg/carousel-2-9564cde8d38ebab1459025fdef2ce4ab5234c0eb513f8adcb2f1372239658666.svg.gz);
+
+}
+.clb3{
+    background: url(https://assets-v2.scaler.com/assets/academy/svg/carousel-3-2e0b3720f1392a3e14891c535812590f2fbbd783345b01fafd9b31e490478a81.svg.gz);
+}
+.clb4{
+    background: url(https://assets-v2.scaler.com/assets/academy/svg/carousel-4-00d16bc0a8527953681077555f504bd54ca8cc03896d1272ad62ffc77d116eb8.svg.gz);
+}
+.clb1,.clb2,.clb3,.clb4{
+    background-repeat: no-repeat;
+    background-size:cover ;
+}
+
+.sshwrap{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
 }
