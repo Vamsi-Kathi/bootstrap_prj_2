@@ -469,3 +469,20 @@ body {
     flex-wrap: wrap;
     gap: 10px;
 }
+.cc{
+    color: gray;
+}
+.ft{
+    background: #202738;
+    color: white;
+    p{  margin: 0;
+        color: rgb(193, 191, 191);
+    }
+}
+footer{
+    background: #181f30;
+    color: rgb(178, 178, 178);
+}
+.trans{
+   background: linear-gradient( #0168c361,#e7f4ffca);
+}
